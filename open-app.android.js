@@ -1,5 +1,5 @@
 "use strict";
-var utils = require("utils/utils");
+
 
 function openApp(appID, storeFallback, appleStoreId) {
     if (storeFallback === void 0) { storeFallback = true; }
