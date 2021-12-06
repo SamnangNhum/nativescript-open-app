@@ -1,5 +1,5 @@
 "use strict";
-
+var utils = require('@nativescript/core/utils')
 
 function openApp(appID, storeFallback, appleStoreId) {
     if (storeFallback === void 0) { storeFallback = true; }
